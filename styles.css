@@ -13,7 +13,7 @@ body {
 }
 /* Link Styles */
 
-a {
+ a {
   text-decoration: none;
   color: #999;
 }
@@ -75,8 +75,10 @@ header .profile-image {
   filter: sepia(100%);
 }
 header .profile-image:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   filter: sepia(0%);
+  transition: .8s;
+  border: hidden;
 }
 .tag {
   background-color: #efefef;
@@ -97,7 +99,7 @@ header .profile-image:hover {
 }
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 .card {
   margin: 30px;
@@ -110,7 +112,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #c46a1b;
 }
 
 ul.skills {
@@ -161,9 +163,6 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
