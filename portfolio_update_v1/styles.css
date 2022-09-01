@@ -13,7 +13,7 @@ body {
 }
 /* Link Styles */
 
- a {
+a {
   text-decoration: none;
   color: #999;
 }
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Austin.jpg') no-repeat center center;
+  background: url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -72,13 +72,9 @@ header .profile-image {
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
-  filter: sepia(100%);
 }
 header .profile-image:hover {
-  transform: scale(1.1);
-  filter: sepia(0%);
-  transition: .8s;
-  border: none;
+  transform: scale(1.2) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
@@ -88,18 +84,9 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-#Experience {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
-  border-radius: 5px;
-  display: table;
-  margin: 10px auto;
-  margin-top: 147px;
-}
 .location {
   background-color: #222;
-  color: rgb(255, 255, 255);
+  color: yellow;
 }
 .card {
   margin: 30px;
@@ -112,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #c46a1b;
+  border-color: #ff99ff;
 }
 
 ul.skills {
@@ -130,26 +117,7 @@ ul.skills {
 }
 
 .skills li:nth-child(odd) {
-  background: #000000;
-}
-button {
-  color: white;
-  background-color: black;
-  font-family: 'Roboto', sans-serif;
-}
-
-input {
-  width: 300px;
-}
-textarea {
-  width: 300px;
-  font-family: 'Roboto', sans-serif;
-}
-form {
-  width: 800px;
-  height: 445px;
-  line-height: 25px;
-  display: inline-block;
+  background: #0399ff;
 }
 
 footer {
@@ -182,6 +150,9 @@ a.social {
   background-size: 30px 30px;
   opacity: .4;
   transition: all .5s;
+}
+a.twitter {
+  background-image: url(images/twitter.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
