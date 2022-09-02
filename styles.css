@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.banner {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -100,6 +100,10 @@ header .profile-image:hover {
   margin-top: 147px;
 }
 
+#Contact-Me {
+  margin-left: 400px;
+}
+
 #hiking {
   width: 301px;
   height: 438px;
@@ -108,7 +112,7 @@ header .profile-image:hover {
   background-color: #222;
   color: rgb(255, 255, 255);
 }
-.info {
+section {
   margin: 40px;
   padding: 20px 80px 80px;
   max-width: 500px;
@@ -118,7 +122,7 @@ header .profile-image:hover {
   border-radius: 2px;
   transition: all .5s;
 }
-.info:hover {
+section:hover {
   border-color: #c46a1b;
 }
 
