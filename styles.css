@@ -30,6 +30,7 @@ nav {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 1;
 }
 .main-menu {
   display: flex;
@@ -68,7 +69,6 @@ header {
 header .profile-image {
   margin-top: 50px;
   position: relative;
-  z-index: 1;
   width: 150px;
   height: 150px;
   border-radius: 50%;
